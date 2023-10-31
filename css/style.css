@@ -11,10 +11,11 @@
 }
 .button{
      height: 25px;
-     padding: 0 10px;
+     padding:0 10px;
      border-radius: 10px;
      border: 1px solid #ccc;
 }
+/**HEADER**/
 header .container{
     height: 50px;
 }
@@ -71,7 +72,12 @@ header .small{
       margin-bottom: 20px;
   }
   .second-row .box .insertion{
-
+    margin-bottom: 20px;
+  }
+  .second-row .secondary{
+    background-color: rgb(42, 39, 39);
+    color: white;
+    border-color: rgb(42, 39, 39);
   }
   
   main .container{
