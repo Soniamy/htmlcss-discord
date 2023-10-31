@@ -79,7 +79,7 @@ header .small{
     color: white;
     border-color: rgb(42, 39, 39);
   }
-  
+  /**MAIN**/
   main .container{
     height: 400px;
   }
