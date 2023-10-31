@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-family: sans-serif;
 }
 .button{
      height: 25px;
@@ -83,19 +84,27 @@ header .small{
   main .container{
     height: 400px;
   }
-.third-row .left-box{
-    background-color: rgb(56, 145, 234);
+.third-row .left-box img{
     height: 300px;
     width: 500px;
-    border: 1px dashed black;
+    /**background-color: rgb(56, 145, 234);
+    border: 1px dashed black;**/
 }
 
 .third-row .right-box{
-    background-color: pink;
-    border: 1px dashed black;
     height: 300px;
     width: 300px;
+   /** background-color: pink;
+    border: 1px dashed black;**/
 }
+.third-row .right-box h2{
+ font-size: 35px;
+ margin-bottom: 25px;
+}
+.third-row .right-box p{
+    font-size: 15px;
+   }
+
 .third-row.reversed .container{
     flex-direction: row-reverse;
     background-color: lightgrey;
