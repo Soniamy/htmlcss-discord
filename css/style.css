@@ -161,6 +161,7 @@ header .small{
 .fifth-row .first-box{
     height: 450px;
     width: 250px;
+    padding-top: 30px;
    /** background-color: lightcoral;
     border: 1px dashed black;**/
 }
@@ -181,11 +182,15 @@ header .small{
     color: white;
     margin-top: 10px;
 }
+.fifth-row i{
+ margin-right: 10px;
+}
 .fifth-row .column-box{
    /**background-color:aqua;
     border: 1px dashed black;**/
     width: 550px;
     display: flex;
+    padding-top: 30px;
 }
 .fifth-row .column-box .column{
    /**border: 1px dashed white;**/
@@ -214,7 +219,7 @@ hr{
     height: 80px;
 }
 .sixth-row .footer-box{
-    background-color: aquamarine;
+   /** background-color: aquamarine;**/
     width: 800px;
     height: 50px;
     display: flex;
@@ -222,16 +227,17 @@ hr{
     align-items: center;
  }
  .sixth-row .logo{
-    background-color: rgb(235, 153, 153);
+    /**background-color: rgb(235, 153, 153);
+    border: 1px dashed black;**/
     height: 20px;
     width: 50px;
-    border: 1px dashed black;
  }
  .sixth-row .botton{
-    background-color: rgb(235, 153, 153);
+   /** background-color: rgb(235, 153, 153);
+    border: 1px dashed black;**/
     height: 20px;
     width: 50px;
-    border: 1px dashed black;
+    
  }
 
 
