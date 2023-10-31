@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-family: sans-serif;
 }
 .button{
      height: 25px;
@@ -107,22 +109,43 @@ header .small{
 
 .third-row.reversed .container{
     flex-direction: row-reverse;
-    background-color: lightgrey;
+    background-color: rgb(246, 246, 246);
 }
 .fourth-row .container{
-    background-color: lightgrey;
-    height: 700px;
+    background-color: rgb(246, 246, 246);
+    height: 1000px;
 }
 .fourth-row .big-box{
-    background-color:rgb(45, 112, 45);
     height: 600px;
     width: 800px;
-    border: 1px dashed black;
+    margin-top: -300px;
+   /** background-color:rgb(45, 112, 45);
+    border: 1px dashed black;**/
 }
-.fourth-row .container{
-    background-color: lightgrey;
-    height: 650px;
+.fourth-row .big-box img{
+     margin-bottom: 15px;
 }
+.fourth-row .big-box .text{
+    text-align: center;
+}
+.fourth-row .big-box h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+   }
+   .fourth-row .big-box p{
+    font-size: 15px;
+   }
+   .fourth-row .big-box .stars{
+    text-align: center;
+   }
+   .fourth-row .big-box .stars h2{
+    font-size: 28px;
+   }
+   .fourth-row .big-box .third{
+    background-color: rgb(118, 136, 212);
+    border-color:rgb(118, 136, 212) ;
+    color: white;
+   }
 .fifth-row .container{
     background-color: rgb(48, 45, 45);
     height: 470px;
