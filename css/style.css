@@ -10,10 +10,10 @@
     flex-wrap: wrap;
 }
 .button{
-     height: 20px;
-     width: 40px;
-     text-align: center;
+     height: 25px;
+     padding: 0 10px;
      border-radius: 10px;
+     border: 1px solid #ccc;
 }
 header .container{
     height: 50px;
@@ -21,12 +21,12 @@ header .container{
 header .first-row{
     background-color: rgb(56, 93, 224);
     min-width: 100%;
+    padding-top: 1em;
 }
 header .first-row .box{
    height: 30px;
-   background-color: orange;
-   border: 1px dashed black;
- 
+   /**background-color: orange;
+   border: 1px dashed black;**/
 }
 
 header .small{
@@ -34,6 +34,7 @@ header .small{
   }
   header .small:last-child{
     text-align:end;
+
   }
   header .large{
     width: 400px;
@@ -43,24 +44,36 @@ header .small{
         color: white;
         text-decoration: none;
         margin: 4px;
+        font-size: 15px;
     }
     header .small button{
         color: black;
         background-color: white;
     }
   .second-row{
-    background-color: rgb(23, 23, 161);
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   background-image: url(../img/jumbo.png);
+   background-size:cover;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
   }
   .second-row .box{
    height: 300px;
    width: 600px;
-   background-color: fuchsia;
-   border: 1px dashed black;
+   /**background-color: fuchsia;
+   border: 1px dashed black;**/
+   text-align: center;
+   color: white;
   }
+  .second-row .box h1{
+    margin-top: 80px;
+      margin-bottom: 20px;
+  }
+  .second-row .box .insertion{
+
+  }
+  
   main .container{
     height: 400px;
   }
