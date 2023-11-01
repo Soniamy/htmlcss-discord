@@ -17,7 +17,17 @@ body{
      border-radius: 20px;
      border: 1px solid #ccc;
 }
-
+.wave-top{
+    width: 100%;
+    fill: #F6F6F6;
+    position: relative;
+    top: 30px;
+}
+.wave-botton{
+    width: 100%;
+    fill: #F6F6F6;
+    transform: rotate(180deg)
+}
 /**HEADER**/
 
 
@@ -89,7 +99,7 @@ header .small{
   /**MAIN**/
 
   main .container{
-    height: 400px;
+    min-height: 400px;
   }
 .third-row .left-box img{
     height: 300px;
@@ -97,7 +107,6 @@ header .small{
     /**background-color: rgb(56, 145, 234);
     border: 1px dashed black;**/
 }
-
 .third-row .right-box{
     height: 300px;
     width: 300px;
